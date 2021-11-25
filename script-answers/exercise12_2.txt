@@ -1,0 +1,15 @@
+Script started on 2021-11-25 20:28:46+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="116" LINES="96"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ville@DESKTOP-82G55NG: ~/programming/part12-containers-applications/script-answers[01;32mville@DESKTOP-82G55NG[00m:[01;34m~/programming/part12-containers-applications/script-answers[00m$ exitcho "hello"[5Pls -als[Kcd ~[2Plscd ..[3Plscd ..[3PF:cd F:\Programming\part12-containers-applications[A]0;ville@DESKTOP-82G55NG: ~/programming/part12-containers-applications/script-answers[01;32mville@DESKTOP-82G55NG[00m:[01;34m~/programming/part12-containers-applications/script-answers[00m$ ls -asl[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psl[K -slaslcd F:\Programming\part12-containers-applications[A]0;ville@DESKTOP-82G55NG: ~/programming/part12-containers-applications/script-answers[01;32mville@DESKTOP-82G55NG[00m:[01;34m~/programming/part12-containers-applications/script-answers[00m$ F:[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[3Plscd ..[3Plscd ~[2Pls -alsecho "hello"xit[K[Kexitcho "hello"[5Pls -als[Kcd ~[2Plscd ..[3Plscd ~[2Pls -alsecho "hello"xit[K[Kdocker runt [K[K -t[Kit ubuntu a[Kbash
+]0;root@a28db07fb3e1: /root@a28db07fb3e1:/# [K]0;root@a28db07fb3e1: /root@a28db07fb3e1:/# mkdir /usr/src/app
+]0;root@a28db07fb3e1: /root@a28db07fb3e1:/# touch /usr/src/app/index.js
+]0;root@a28db07fb3e1: /root@a28db07fb3e1:/# [Kexit
+exit
+]0;ville@DESKTOP-82G55NG: ~/programming/part12-containers-applications/script-answers[01;32mville@DESKTOP-82G55NG[00m:[01;34m~/programming/part12-containers-applications/script-answers[00m$ exit
+exit
+
+Script done on 2021-11-25 20:30:10+02:00 [COMMAND_EXIT_CODE="0"]
