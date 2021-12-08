@@ -1,0 +1,48 @@
+{
+  "name": "f1-history-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node -r esm ./src/index.js",
+    "start:windows": "cross-env NODE_ENV=production node -r esm ./src/index.js",
+    "dev": "NODE_ENV=development nodemon -r esm ./src/index.js",
+    "build:ui": "rm build && cd ../frontend && npm run build && cp -r build ../backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Villee00/F1-history-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Villee00/F1-history-be/issues"
+  },
+  "homepage": "https://github.com/Villee00/F1-history-be#readme",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "apollo-server-core": "^3.4.0",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.7",
+    "node-fetch": "^3.0.0",
+    "wikijs": "^6.2.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.12"
+  }
+}

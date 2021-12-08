@@ -1,0 +1,25 @@
+
+services:
+  frontend:
+    image: f1-frontend
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    environment:
+      - GRAPHQL_URI=http://localhost:4000/graphql
+    
+    ports:
+      - 8080:80
+    container_name: f1-frontend
+
+  server:
+    image: f1-backend
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend/.:/usr/src/app/
+
+    ports:
+      - 4000:4000
+    container_name: f1-backend
