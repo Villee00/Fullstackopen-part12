@@ -10,7 +10,7 @@ import {
 import { relayStylePagination } from '@apollo/client/utilities';
 
 const client = new ApolloClient({
-  uri: process.env.GRAPHQL_URI,
+  uri: process.env.REACT_APP_GRAPHQL_URI ?? '/graphql',
   cache: new InMemoryCache({
     typePolicies: {
       Query: {

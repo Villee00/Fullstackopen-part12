@@ -1,0 +1,28 @@
+
+services:
+
+  frontend-dev:
+    image: f1-frontend-dev
+    build:
+      context: ./frontend/
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./frontend/.:/usr/src/app/
+    environment:
+      - REACT_APP_GRAPHQL_URI=http://localhost:4000/graphql
+    
+    ports:
+      - 3000:3000
+    container_name: f1-frontend-dev
+
+  server-dev:
+    image: f1-backend-dev
+    build:
+      context: ./backend/
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./backend/.:/usr/src/app/
+
+    ports:
+      - 4000:4000
+    container_name: f1-backend-dev
